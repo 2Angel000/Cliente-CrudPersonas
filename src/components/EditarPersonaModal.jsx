@@ -46,9 +46,7 @@ const EditarPersonaModal = ({
     <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-gray-800 bg-opacity-50">
       <div className="bg-white p-8 rounded shadow-lg">
         <h2 className="text-xl font-bold mb-4">Editar Persona</h2>
-        <form action="#"
-        onSubmit={handleSubmit}
-        method="POST">
+        <form action="#" onSubmit={handleSubmit} method="POST">
           <div className="mb-4">
             <label htmlFor="nombre" className="block font-bold mb-1">
               Nombre:
